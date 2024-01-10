@@ -3,11 +3,8 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import {  Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
 import Layout from './Layout.jsx'
-import Home from './components/Home/Home.jsx'
-import About from './components/About/about.jsx'
-import Contact from './components/Contact/contact.jsx'
-import Github, { githubInfoLoader } from './components/Github/github.jsx'
-import User from './components/User/user.jsx'
+import {Github, Home, Contact, User, githubInfoLoader, About} from "./components"
+
 
 
 const router = createBrowserRouter(
